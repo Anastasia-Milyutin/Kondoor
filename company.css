@@ -359,3 +359,248 @@ footer {
   align-items: end;
 }
 /*footer end*/
+@media (max-width: 1300px) {
+  .application__img {
+    display: none;
+  }
+  .application {
+    justify-content: center;
+  }
+  .application__block-text {
+    align-items: center;
+  }
+}
+@media (max-width: 1200px) {
+  .materials {
+    padding: 80px 109px;
+  }
+  .production-block {
+    width: 980px;
+  }
+  .production__p {
+    font-size: 15px;
+  }
+  .production__h {
+    width: auto;
+  }
+}
+@media (max-width: 1030px) {
+  .welcome__order {
+    left: 38vw;
+  }
+}
+@media (max-width: 990px) {
+  .production-block {
+    height: 596px;
+    flex-direction: column;
+    width: 514px;
+  }
+  .production {
+    height: 2049px;
+    justify-content: space-around;
+  }
+  .welcome-p {
+    left: 43vh;
+  }
+}
+@media (max-width: 950px) {
+  .header__menu-link__flex {
+    display: none;
+  }
+}
+@media (max-width: 949px) {
+  .header__active {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: #131010;
+    margin-top: 40px;
+  }
+  .menu-link:hover {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .menu-icon {
+    display: block;
+    border: none;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    background-color: #131010;
+  }
+  .menu-icon__line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  .menu-icon::after,
+  .menu-icon::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+  }
+  .menu-icon::after {
+    bottom: 0;
+    transition: transform 0.2s, bottom 0.2s 0.2s;
+  }
+  .menu-icon::before {
+    top: 0;
+    transition: transform 0.2s, top 0.2s 0.2s;
+  }
+  .menu-icon-active .menu-icon__line {
+    background-color: transparent;
+  }
+  .menu-icon-active::before {
+    transform: rotate(45deg);
+    top: 45%;
+    transition: top 0.2s, transform 0.2s 0.2s;
+  }
+  .menu-icon-active::after {
+    transform: rotate(-45deg);
+    bottom: 45%;
+    transition: bottom 0.2s, transform 0.2s 0.2s;
+  }
+}
+@media (max-width: 880px) {
+  .values__block-flex {
+    margin-left: 120px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .values {
+    height: 559px;
+  }
+  .values__block {
+    flex-direction: row;
+  }
+  .values__text {
+    text-align: left;
+  }
+
+  .materials {
+    height: 636px;
+  }
+  .welcome-p {
+    left: 34vh;
+  }
+}
+@media (max-width: 800px) {
+  .welcome-p {
+    left: 12vw;
+  }
+  .values__block-flex {
+    margin-left: 90px;
+  }
+  .production-block {
+    width: 512px;
+  }
+  .welcome__order {
+    left: 35vw;
+  }
+}
+@media (max-width: 700px) {
+  .welcome__order {
+    left: 32vw;
+  }
+  .welcome-p {
+    left: 7vw;
+  }
+  .values__block-flex {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 660px) {
+  .welcome-p {
+    left: 0;
+    width: auto;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .welcome__order {
+    left: 30vw;
+  }
+  .materials {
+    height: 836px;
+  }
+  .production__img {
+    width: 400px;
+  }
+  .production-block {
+    width: 400px;
+  }
+  .form-inp {
+    width: 347px;
+  }
+  .application__block-form {
+    align-items: center;
+  }
+  .form-review {
+    width: 347px;
+  }
+  .form-p {
+    text-align: center;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .contacts__p {
+    width: 177px;
+  }
+}
+@media (max-width: 590px) {
+  .materials {
+    height: 1236px;
+  }
+}
+@media (max-width: 530px) {
+  .welcome__order {
+    left: 26vw;
+  }
+}
+@media (max-width: 480px) {
+  .values__block-flex {
+    margin-left: 10px;
+  }
+  .materials {
+    padding: 80px 69px;
+  }
+}
+@media (max-width: 450px) {
+  .welcome__order {
+    left: 23vw;
+  }
+  .production__img {
+    width: 300px;
+  }
+  .production-block {
+    width: 300px;
+  }
+  .production-block {
+    height: 666px;
+  }
+  .production {
+    height: 2249px;
+  }
+  .welcome__order {
+    top: 70vh;
+  }
+  .values {
+    padding: 0;
+  }
+}
+@media (max-width: 390px) {
+  h1 {
+    font-size: 38px;
+  }
+  .materials {
+    padding: 80px 39px;
+  }
+  .welcome__order {
+    left: 17vw;
+  }
+}
